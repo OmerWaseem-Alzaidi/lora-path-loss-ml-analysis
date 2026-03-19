@@ -101,7 +101,7 @@ If you want to explore or re-run the notebook:
 
 ```bash
 # Clone the repository
-git clone https://github.com/omerwaseem-alzaidi/lora-path-loss-analysis.git
+git clone https://github.com/omerwaseem-alzaidi/lora-path-loss-ml-analysis.git
 cd lora-path-loss-analysis
 
 # Open the notebook
@@ -132,8 +132,6 @@ The dataset is **included** in this repository under `data/raw/`.
 - **Measurement points**: Anchors move along defined paths; each point averaged over 3 packets
 - **Path loss formula**: PL = rssi_n + 10·log₁₀(1 + 1/(10^(SNR/10)))
 - **Transmitter position**: [44, 0] (m)
-
-See `README.txt` for full dataset description and contact (giulio.maria.bianco@uniroma2.it).
 
 ---
 
