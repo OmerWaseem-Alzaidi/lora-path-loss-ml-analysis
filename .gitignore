@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Output files
+*.png
+*.csv
+model_performance_summary.csv
+feature_*.png
+roc_curve_*.png
+confusion_matrix_*.png
+
+# Output artifacts
+output/
+notebooks/output/
+*.log
